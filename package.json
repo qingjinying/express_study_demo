@@ -1,0 +1,14 @@
+{
+  "name": "express_demo",
+  "version": "1.0.0",
+  "description": "simple",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "ning",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

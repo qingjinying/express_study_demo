@@ -9,6 +9,11 @@ app.get('/lol',function (req, res, next) {
 
 });
 
+app.get('/lol',function (req, res, next) {
+    res.send('欢迎来到英雄联盟');
+
+});
+
 app.get('/error', function (req, res, next) {
     next('出错了');
 });

@@ -14,6 +14,11 @@ app.get('/lol',function (req, res, next) {
 
 });
 
+app.get('/dema',function (req, res, next) {
+    res.send('德玛西亚之力');
+
+});
+
 app.get('/error', function (req, res, next) {
     next('出错了');
 });
